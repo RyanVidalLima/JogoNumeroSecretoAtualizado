@@ -42,4 +42,6 @@ Se você tiver alguma dica, projeto ou apenas quiser bater um papo sobre tecnolo
 
 ---
 
+![Snake animation](https://github.com/RyanVidalLima/RyanVidalLima/blob/output/github-contribution-grid-snake.svg)
+
 ✨ **Divirta-se codando!** ✨
