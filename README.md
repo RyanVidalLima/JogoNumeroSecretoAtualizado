@@ -5,22 +5,23 @@
 
 🎓 Estudante de Programação.
 
-🌱 Atualmente aprendendo CSS, HTML, JavaScript, Git e Github.
-
-## Tecnologias e Ferramentas
-- 💻 CSS, HTML e JavaScript;
-- 🛠️ Git e Github;
+🌱 Atualmente aprendendo:
+- <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />;
+- <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" /> <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
 - 📚 Sempre explorando novas tecnologias!
 
 ## Projetos
 ### 📁 Jogo do Numero Secreto
-- 🔗 (https://github.com/RyanVidalLima/JogoNumeroSecretoAtualizado)
-- 📖 Descrição: Projeto inicial didático para aprender o básico de Programação.
+- 🔗 https://github.com/RyanVidalLima/JogoNumeroSecretoAtualizado
+- 📖 Descrição: Projeto inicial de jogo didático para aprender o básico de Programação.
 
 ## Conecte-se comigo
-- 💼 [LinkedIn](https://www.linkedin.com/in/ryan-vidal/)
-- 🐦 [Twitter/X](https://x.com/RyanVidal19)
-- 📧 Email: [ryanvidal.lima@gmail.com]
+<div>
+<a href="https://www.youtube.com/channel/UCJ2_KNYlEnZSGyGYksukhpQ" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" target="_blank"></a>
+<a href="https://www.instagram.com/ryanvidal.lima" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-Instagram-%23E4405F?style=for-the-badge&logo=instagram&logoColor=white" target="_blank"></a>
+<a href = "mailto:ryanvidal.lima2@gmail.com"><img loading="lazy" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" target="_blank"></a>
+<a href="https://www.linkedin.com/in/ryan-vidal" target="_blank"><img loading="lazy" src="https://img.shields.io/badge/-LinkedIn-%230077B5?style=for-the-badge&logo=linkedin&logoColor=white" target="_blank"></a>
+</div>
 
 ## Hobbies
 - 🎮 Jogar videogames
