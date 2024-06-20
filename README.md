@@ -1,4 +1,6 @@
-# 👋 Olá, Mundo! ![Bem-vindo](https://media.giphy.com/media/EfROMmCzNFAid4HJrM/giphy.gif?cid=790b761147n3s0ittasvbmt3gr58rxevpvwygfphpdyj0unw&ep=v1_gifs_search&rid=giphy.gif&ct=g)
+# 👋 Olá, Mundo!
+
+![Bem-vindo](https://media.giphy.com/media/EfROMmCzNFAid4HJrM/giphy.gif?cid=790b761147n3s0ittasvbmt3gr58rxevpvwygfphpdyj0unw&ep=v1_gifs_search&rid=giphy.gif&ct=g)
 
 ## Sobre mim
 🚀 Estou começando minha jornada na programação.
@@ -31,6 +33,12 @@
 
 ## Vamos Colaborar!
 Se você tiver alguma dica, projeto ou apenas quiser bater um papo sobre tecnologia, fique à vontade para me contatar!
+
+<div>
+<a href="https://github.com/RyanVidalLima">
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api/top-langs/?username=RyanVidalLima&layout=compact&langs_count=7&theme=dracula"/>
+<img loading="lazy" height="180em" src="https://github-readme-stats.vercel.app/api?username=RyanVidalLima&show_icons=true&theme=dracula&include_all_commits=true&count_private=true"/>
+</div>
 
 ---
 
