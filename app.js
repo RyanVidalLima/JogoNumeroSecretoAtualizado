@@ -1,5 +1,13 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100;
+document.addEventListener("keypress", function(e) {
+
+    if(e.key === "Enter") {
+       const btn = document.querySelector("#verificar");
+       btn.click();
+    }
+
+});
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
