@@ -1,15 +1,16 @@
 let listaDeNumerosSorteados = [];
 let numeroLimite = 100;
-document.addEventListener("keypress", function(e) {
-
-    if(e.key === "Enter") {
-       const btn = document.querySelector("#verificar");
-       btn.click();
-    }
-
-});
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+
+const chuteInput = document.querySelector('input[type=number]');
+
+chuteInput.addEventListener("keypress", function (event) {
+  if (event.key === "Enter") {
+    event.preventDefault();
+    verificarChute();
+  }
+});
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
