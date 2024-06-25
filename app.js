@@ -3,7 +3,7 @@ let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
-const chuteInput = document.querySelector('input[type=number]');
+let chuteInput = document.querySelector('input[type=number]');
 
 chuteInput.addEventListener("keypress", function (event) {
   if (event.key === "Enter") {
