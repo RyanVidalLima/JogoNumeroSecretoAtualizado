@@ -2,15 +2,16 @@ let listaDeNumerosSorteados = [];
 let numeroLimite = 100;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
+let canvas = document.querySelector('#confetti');
+let jsConfetti = new JSConfetti();
 
-let chuteInput = document.querySelector('input[type=number]');
+document.addEventListener('keypress', function(event) {
 
-chuteInput.addEventListener("keypress", function (event) {
-  if (event.key === "Enter") {
-    event.preventDefault();
-    verificarChute();
-  }
-});
+    if(event.key === 'Enter') {
+        let btn = document.querySelector('#verificar')
+        btn.click();
+    }
+})
 
 function exibirTextoNaTela(tag, texto) {
     let campo = document.querySelector(tag);
@@ -19,7 +20,7 @@ function exibirTextoNaTela(tag, texto) {
 
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
-    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100');
+    exibirTextoNaTela('p', 'Escolha um número entre 1 e 100:');
 }
 
 exibirMensagemInicial();
@@ -34,6 +35,7 @@ function verificarChute() {
         let mensagemTentativas = `Você descobriu o número secreto com ${tentativas} ${palavraTentativa}!`;
         exibirTextoNaTela('p', mensagemTentativas);
         document.getElementById('reiniciar').removeAttribute('disabled');
+        jsConfetti.addConfetti().then(() => jsConfetti.addConfetti());
     } else {
         if (chute > numeroSecreto) {
             exibirTextoNaTela('p', 'O número secreto é menor');
@@ -52,6 +54,7 @@ function gerarNumeroAleatorio() {
     if (quantidadeDeElementosNaLista == numeroLimite) {
         listaDeNumerosSorteados = [];
     }
+
     if (listaDeNumerosSorteados.includes(numeroEscolhido)) {
         return gerarNumeroAleatorio();
     } else {
